@@ -1,0 +1,5 @@
+Browser=chrome
+url=http://dbankdemo.com/login
+wait=30
+dbusername=admin
+dbpassword=gayu0217

@@ -1,0 +1,443 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 592029,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookStepDefinition.beforehook(Scenario)"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "enter details using credentials",
+        "description": "",
+        "id": "overall-functionality-of-dbank-applications;enter-details-using-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 1020535336,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookStepDefinition.Afterhook(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 19986350209,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "To get the url",
+            "match": {
+              "location": "LoginStepDefinition.to_get_the_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 20137167386,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "To click the Signup option",
+            "match": {
+              "location": "LoginStepDefinition.to_click_the_Signup_option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 949567432,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "To choose \"Mrs\" as the title",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mrs",
+                  "offset": 11
+                }
+              ],
+              "location": "LoginStepDefinition.to_choose_as_the_title(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3551193016,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "to enter the \"Gayathri\" as firstname",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Gayathri",
+                  "offset": 14
+                }
+              ],
+              "location": "LoginStepDefinition.to_enter_the_as_firstname(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3423243368,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "to enter the \"murugan\" as lastname",
+            "match": {
+              "arguments": [
+                {
+                  "val": "murugan",
+                  "offset": 14
+                }
+              ],
+              "location": "LoginStepDefinition.to_enter_the_as_lastname(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5399524417,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "To choose the \"Female\" as Gender",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Female",
+                  "offset": 15
+                }
+              ],
+              "location": "LoginStepDefinition.to_choose_the_as_Gender(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3802801617,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "To enter \"05/17/1997\" as dob",
+            "match": {
+              "arguments": [
+                {
+                  "val": "05/17/1997",
+                  "offset": 10
+                }
+              ],
+              "location": "LoginStepDefinition.to_enter_as_dob(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3488548507,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "to enter the \"123-45-7898\" as ssnumber",
+            "match": {
+              "arguments": [
+                {
+                  "val": "123-45-7898",
+                  "offset": 14
+                }
+              ],
+              "location": "LoginStepDefinition.to_enter_the_as_ssnumber(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3573825879,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "To enter the \"gayumkg1702@gmail.com\" as emailid",
+            "match": {
+              "arguments": [
+                {
+                  "val": "gayumkg1702@gmail.com",
+                  "offset": 14
+                }
+              ],
+              "location": "LoginStepDefinition.to_enter_the_as_emailid(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3542507590,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "To enter the \"gayumkg0217\" as password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "gayumkg0217",
+                  "offset": 14
+                }
+              ],
+              "location": "LoginStepDefinition.to_enter_the_as_password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3373941206,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "to enter the \"gayumkg0217\" as confirmpassword",
+            "match": {
+              "arguments": [
+                {
+                  "val": "gayumkg0217",
+                  "offset": 14
+                }
+              ],
+              "location": "LoginStepDefinition.to_enter_the_as_confirmpassword(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 30251034768,
+              "error_message": "junit.framework.AssertionFailedError: expected:\u003ctrue\u003e but was:\u003cfalse\u003e\r\n\tat junit.framework.Assert.fail(Assert.java:57)\r\n\tat junit.framework.Assert.failNotEquals(Assert.java:329)\r\n\tat junit.framework.Assert.assertEquals(Assert.java:78)\r\n\tat junit.framework.Assert.assertEquals(Assert.java:174)\r\n\tat junit.framework.Assert.assertEquals(Assert.java:181)\r\n\tat com.DBankCucumber.StepDefinition.LoginStepDefinition.to_click_next(LoginStepDefinition.java:85)\r\n\tat ✽.Then to click next(dbank.feature:18)\r\n",
+              "status": "failed"
+            },
+            "line": 18,
+            "name": "to click next",
+            "match": {
+              "location": "LoginStepDefinition.to_click_next()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 256126,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookStepDefinition.beforehook(Scenario)"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "enter details to register",
+        "description": "",
+        "id": "overall-functionality-of-dbank-applications;enter-details-to-register",
+        "after": [
+          {
+            "result": {
+              "duration": 298114,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookStepDefinition.Afterhook(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3555302228,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "To enter the \"111a\" as address",
+            "match": {
+              "arguments": [
+                {
+                  "val": "111a",
+                  "offset": 14
+                }
+              ],
+              "location": "RegisterStepDefinition.to_enter_the_as_address(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3343671681,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "to enter the \"Chennai\" as locality",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Chennai",
+                  "offset": 14
+                }
+              ],
+              "location": "RegisterStepDefinition.to_enter_the_as_locality(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3322496730,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "to enter the \"TN\" as region",
+            "match": {
+              "arguments": [
+                {
+                  "val": "TN",
+                  "offset": 14
+                }
+              ],
+              "location": "RegisterStepDefinition.to_enter_the_as_region(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3352716802,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "to enter the \"600018\" as Postal",
+            "match": {
+              "arguments": [
+                {
+                  "val": "600018",
+                  "offset": 14
+                }
+              ],
+              "location": "RegisterStepDefinition.to_enter_the_as_Postal(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3343283526,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "to enter the \"India\" as country",
+            "match": {
+              "arguments": [
+                {
+                  "val": "India",
+                  "offset": 14
+                }
+              ],
+              "location": "RegisterStepDefinition.to_enter_the_as_country(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3439821113,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "to enter the \"(525)-89-4587\" as Home",
+            "match": {
+              "arguments": [
+                {
+                  "val": "(525)-89-4587",
+                  "offset": 14
+                }
+              ],
+              "location": "RegisterStepDefinition.to_enter_the_as_Home(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3471263966,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "to enter the \"(525)-89-4587\" as mobile",
+            "match": {
+              "arguments": [
+                {
+                  "val": "(525)-89-4587",
+                  "offset": 14
+                }
+              ],
+              "location": "RegisterStepDefinition.to_enter_the_as_mobile(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3394166298,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "to enter the \"(525)-89-4587\" as work",
+            "match": {
+              "arguments": [
+                {
+                  "val": "(525)-89-4587",
+                  "offset": 14
+                }
+              ],
+              "location": "RegisterStepDefinition.to_enter_the_as_work(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5421176631,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "to click Agree",
+            "match": {
+              "location": "RegisterStepDefinition.to_click_Agree()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 18692271805,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "To click the register",
+            "match": {
+              "location": "RegisterStepDefinition.to_click_the_register()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Overall Functionality of dbank applications",
+    "description": "",
+    "id": "overall-functionality-of-dbank-applications",
+    "keyword": "Feature",
+    "uri": "dbank.feature"
+  }
+]
