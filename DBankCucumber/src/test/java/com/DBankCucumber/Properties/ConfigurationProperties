@@ -1,5 +1,5 @@
 Browser=chrome
 url=http://dbankdemo.com/login
 wait=30
-dbusername=admin
-dbpassword=gayu0217
+dbUsername=admin
+dbPassword=gayu0217
